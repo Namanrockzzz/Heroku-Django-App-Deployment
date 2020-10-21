@@ -29,7 +29,7 @@ DEBUG = config('DEBUG', cast=bool, default=True)
 
 ALLOWED_HOSTS = [
     host.strip()
-    for host in config('ALLOWED_HOSTS', default='').split(,)
+    for host in config('ALLOWED_HOSTS', default='').split(',')
 ]
 
 
